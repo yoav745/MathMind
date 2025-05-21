@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/walpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateQuestion">
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/NameOfQuestion"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter the question's name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/ContentInsideQuestion"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter the Questions's content"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/AnswerOfTheQuesiton"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:hint="Enter the answer"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload the question"
+        android:id="@+id/uploadquestion"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radiogroup"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiomath"
+            android:text="Math"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiocomputerscience"
+            android:text="ComputerScience"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tag:"
+            android:id="@+id/edittexttags"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Tag"
+            android:id="@+id/createanewtag"
+
+            />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvtags"/>
+</LinearLayout>

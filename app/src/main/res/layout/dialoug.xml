@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:text="Right or Wrong"
+        android:id="@+id/rightorwrong"/>
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:hint="How did you solve the questions?"
+        android:id="@+id/AddedContext"/>
+
+
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texttohide2"
+        android:textSize="20sp"
+        android:text="Rate how hard is the problem"/>
+    <RatingBar
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:id="@+id/ratediff"
+        android:layout_height="wrap_content"
+        android:numStars="5"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texttohide1"
+        android:textSize="20sp"
+        android:text="Rate how interesting is the problem"/>
+    <RatingBar
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:id="@+id/rateinterest"
+        android:layout_height="wrap_content"
+        android:numStars="5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/publishanswer"
+        android:text="Publish Answer"/>
+
+
+</LinearLayout>

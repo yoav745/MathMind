@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643874239814",
+    "project_id": "myprogyoav",
+    "storage_bucket": "myprogyoav.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643874239814:android:5ca51fabbf0342e238a147",
+        "android_client_info": {
+          "package_name": "com.example.myprogyoav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTugFwlakM79yr81PSyUOYlnfjLO9kQVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

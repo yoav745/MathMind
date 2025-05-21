@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/walpaper"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WatchProfile">
+    <ImageView
+        android:layout_width="200dp"
+        android:id="@+id/pfp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_person_black_24dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="30sp"
+            android:id="@+id/nametext"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"/>
+        <TextView
+            android:textSize="30sp"
+            android:id="@+id/solvedtext"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions solved:"/>
+        <TextView
+            android:textSize="30sp"
+            android:id="@+id/createdtext"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions Created:"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
